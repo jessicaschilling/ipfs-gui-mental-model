@@ -1,6 +1,6 @@
 import React from 'react';
 import ipfsLogo from './ipfs-logo.svg';
-import './style.css';
+import './style.scss';
 import 'tachyons';
 import 'ipfs-css';
 

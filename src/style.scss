@@ -1,0 +1,40 @@
+@import 'node_modules/ipfs-css/theme.scss';
+
+body {
+  color: $color-charcoal;
+}
+
+h1, h2, h3, h4 {
+  font-family: Montserrat;
+}
+
+h2, h3, h4 {
+  font-weight: 500;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: $color-snow;
+  font-size: 0.9;
+}
+
+#nav {
+  min-width: 260px;
+}
+
+#content p, #content li {
+    line-height: 1.4;
+}
+
+#content h1 {
+  color: $color-teal-muted;
+  font-weight: 600;
+}

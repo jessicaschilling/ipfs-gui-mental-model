@@ -1,12 +1,12 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 import 'tachyons';
 import 'ipfs-css';
 
 const Nav = () => {
   return (
-    <div className='bg-snow pa3 w-15'>
-      <div className='f4 fw5 montserrat charcoal ttu mb1'>Welcome</div>
+    <div id="nav" className='bg-snow-muted pt4 pl3 pr3 pb3'>
+      <div className='f4 fw5 montserrat charcoal ttu mb1 pt2'>Welcome</div>
       <div className='link'>About this model</div>
 
       <div className='f4 fw5 montserrat charcoal ttu mt4 mb1'>Tools &amp; tool types</div>
