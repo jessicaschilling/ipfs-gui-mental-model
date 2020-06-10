@@ -2,7 +2,7 @@ import React from 'react';
 
 const StakeholdersDwebCuriousRelevantArea = () => (
   <div id='content' className='pt3 pr4 pb4 pl4'>
-    <h1>Foo, even more foo</h1>
+    <h1><span className='nav-category'>Stakeholders:</span> Dweb-curious &mdash; relevant app area</h1>
   </div>
 );
 

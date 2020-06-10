@@ -75,3 +75,9 @@ code {
 #content li {
   line-height: 1.5;
 }
+
+#content .nav-category {
+  text-transform: uppercase;
+  color: $color-charcoal;
+  font-weight: 400;
+}
