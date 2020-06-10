@@ -37,24 +37,24 @@ const StakeholdersCryptoEnthusiastsDevs = () => (
               Goals
             </div>
             <div className='journey-box bg-white'>
-              Foo
+              Basic understanding of IPFS/dweb concepts and intersections with crypto
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Decide if IPFS is right solution for them
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Learn enough to get started building
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Effectively use IPFS to improve/enable their project
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Solve tricky IPFS implementation problems
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Grow their project as its needs and IPFS both evolve
             </div>
           </div>
           <div className='flex mt3'>
@@ -62,24 +62,24 @@ const StakeholdersCryptoEnthusiastsDevs = () => (
               Pain points
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Not much comparative info against concepts they already understand
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Few case studies/examples; docs don’t dovetail with what they already know
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Few how-to docs; poor API/CLI docs; little crypto-specific info
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              “Hard” docs often out of date; poor API/LCI docs; no in-depth case studies
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Unclear where to get help; no StackExchange; “hard” docs out of date
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Needs outpace IPFS development; uncertain roadmap, particularly FIL
             </div>
           </div>
           <div className='flex mt3'>
@@ -87,24 +87,24 @@ const StakeholdersCryptoEnthusiastsDevs = () => (
               Repos used
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              website, awesome-ipfs, ipfs-docs, ipld-explorer
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, ipld-explorer, public-gateway-checker
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer, public-gateway-checker
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              ipfs-docs (and forums by extension)
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              website, (specifically blog for announcements), ipfs-docs, distributions
             </div>
           </div>
         </div>

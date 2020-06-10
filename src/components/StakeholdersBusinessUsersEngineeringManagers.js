@@ -20,92 +20,76 @@ const StakeholdersBusinessUsersEngineeringManagers = () => (
               <span role="img" aria-label="yes">👍</span>
             </div>
             <div className='journey-box bg-aqua-muted'>
-              Baseline learning & early building
-            </div>
-            <div className='journey-box bg-aqua-muted'>
-              In-depth building
-            </div>
-            <div className='journey-box bg-aqua-muted'>
-              Problem-solving
+              Building & problem-solving
             </div>
             <div className='journey-box bg-aqua-muted'>
               Scaling
             </div>
+            <div className='journey-box'></div>
+            <div className='journey-box'></div>
           </div>
           <div className='flex mt3'>
             <div className='journey-label'>
               Goals
             </div>
             <div className='journey-box bg-white'>
-              Foo
+              Basic understanding of IPFS/dweb concepts
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Decide if IPFS is right solution for their team
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Empower their team to build on IPFS and solve problems that arise on the way
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Be reassured IPFS will scale alongside with their needs
             </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
+            <div className='journey-box'></div>
+            <div className='journey-box'></div>
           </div>
           <div className='flex mt3'>
             <div className='journey-label'>
               Pain points
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Little high-level info; net-new topic for many
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Few case studies/stack examples; inconsistent maintenance; unclear docs
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              “Hard” docs often out of date; poor API/LCI docs; no in-depth case studies
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Needs outpace IPFS development; uncertain roadmap; few big names
             </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
+            <div className='journey-box'></div>
+            <div className='journey-box'></div>
           </div>
           <div className='flex mt3'>
             <div className='journey-label'>
               Repos used
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              website, awesome-ipfs, ipfs-docs, ipld-explorer, ipfs-share-files
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, js.ipfs.io, ipld-explorer
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs (and forums), distributions, ipld-explorer
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              website (specifically blog for announcements), ipfs-docs, distributions
             </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
+            <div className='journey-box'></div>
+            <div className='journey-box'></div>
           </div>
         </div>
 

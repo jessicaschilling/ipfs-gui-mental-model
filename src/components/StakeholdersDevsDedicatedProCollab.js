@@ -37,24 +37,24 @@ const StakeholdersDevsDedicatedProCollab = () => (
           Goals
         </div>
         <div className='journey-box bg-white'>
-          Foo
+          Basic understanding of IPFS/dweb concepts
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Decide if IPFS is right solution for them
         </div>
         <div className='journey-yes'>
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Learn enough to get started building
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Effectively use IPFS to improve/enable their project
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Solve tricky IPFS implementation problems
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Grow their project as its needs and IPFS both evolve
         </div>
       </div>
       <div className='flex mt3'>
@@ -62,24 +62,24 @@ const StakeholdersDevsDedicatedProCollab = () => (
           Pain points
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Little high-level info; net-new topic for many
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Few case studies/stack examples; inconsistent maintenance; unclear docs
         </div>
         <div className='journey-yes'>
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Few how-to docs; poor API/CLI docs; initial assumed savvy too high
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          “Hard” docs often out of date; poor API/LCI docs; no in-depth case studies
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Unclear where to get help; no StackExchange; “hard” docs out of date
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          Needs outpace IPFS development; uncertain roadmap
         </div>
       </div>
       <div className='flex mt3'>
@@ -87,24 +87,24 @@ const StakeholdersDevsDedicatedProCollab = () => (
           Repos used
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          website, awesome-ipfs,  ipfs-docs, ipld-explorer
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, js.ipfs.io, distributions, ipld-explorer
         </div>
         <div className='journey-yes'>
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          ipfs-docs (and forums by extension)
         </div>
         <div className='journey-box bg-white'>
-        Foo
+          website (specifically blog for announcements), ipfs-docs, distributions
         </div>
       </div>
     </div>

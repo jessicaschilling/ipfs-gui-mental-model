@@ -20,92 +20,84 @@ const StakeholdersDwebCuriousRelevantArea = () => (
               <span role="img" aria-label="yes">👍</span>
             </div>
             <div className='journey-box bg-aqua-muted'>
-              Baseline learning & early building
+              Spec out solutions for their app area
             </div>
             <div className='journey-box bg-aqua-muted'>
-              In-depth building
-            </div>
-            <div className='journey-box bg-aqua-muted'>
-              Problem-solving
+              Work with devs to build and problem-solve
             </div>
             <div className='journey-box bg-aqua-muted'>
               Scaling
             </div>
+            <div className='journey-box'></div>
           </div>
           <div className='flex mt3'>
             <div className='journey-label'>
               Goals
             </div>
             <div className='journey-box bg-white'>
-              Foo
+              Basic understanding of IPFS/dweb concepts
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Decide if IPFS can be used to benefit their app area
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Determine specifics for how IPFS can solve their app area’s problems
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Go from specs to working code on IPFS
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Grow their project as its needs and IPFS both evolve
             </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
+            <div className='journey-box'></div>
           </div>
           <div className='flex mt3'>
             <div className='journey-label'>
               Pain points
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Little high-level info; net-new topic for many
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Few case studies/stack examples; inconsistent maintenance; unclear docs
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              No in-depth case studies; initial assumed savvy too high; poor API/CLI docs
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              “Hard” docs often out of date; poor API/LCI docs; unclear where to get help
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              Needs outpace IPFS development; uncertain roadmap
             </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
+            <div className='journey-box'></div>
           </div>
           <div className='flex mt3'>
             <div className='journey-label'>
               Repos used
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              website, awesome-ipfs, ipfs-docs, ipld-explorer, ipfs-share-files
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, js.ipfs.io, distributions, ipld-explorer
             </div>
             <div className='journey-yes'>
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs (and forums), distributions, ipld-explorer
             </div>
             <div className='journey-box bg-white'>
-            Foo
+              website (specifically blog for announcements), ipfs-docs, distributions
             </div>
-            <div className='journey-box bg-white'>
-            Foo
-            </div>
+            <div className='journey-box'></div>
           </div>
         </div>
 
