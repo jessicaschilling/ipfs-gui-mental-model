@@ -5,8 +5,28 @@ const Recommendations = () => (
 
   <h1>Notes &amp; recommendations</h1>
 
-  <h2>Watch this space</h2>
-  <p>Material to be added here before EOD Thurs 11 June 2020.</p>
+<h2>This section is unfinished. Watch this space.</h2>
+
+  <h2>Notes</h2>
+  <p>Introductory text.</p>
+  <ul>
+    <li>Big similarity of first two journey steps</li>
+    <li>Quadrant items with long life but little depth are still important</li>
+    <li>"tiny but mighty" repos</li>
+    <li>Need some force multipliers for efficiency that touch multiple repos, stakeholders, or tools</li>
+    <li>List</li>
+  </ul>
+
+  <h2>Recommendations</h2>
+  <p>Introductory text.</p>
+  <ul>
+    <li>dir-index-html is overlooked</li>
+    <li>More high-level communications: case studies etc that can also be taken deeper as needed/in future</li>
+    <li>Highlights from pain points</li>
+    <li>Other supporting evidence for audit recommendations</li>
+    <li>Focus on crypto overlap during Filecoin launch</li>
+    <li>List</li>
+  </ul>
 
   </div>
 );
