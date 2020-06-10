@@ -9,7 +9,7 @@ const ReposIpfsShipyardIpldExplorer = () => (
     <p>This repo contains the source code for IPLD Explorer, a tool for exploring the Merkle Forest "from the comfort of your browser". It's available on its own at <a href="https://explore.ipld.io" target="_blank" rel="noopener noreferrer">explore.ipld.io</a>, as well as embedded within <NavLink to='/tools/webui'>Web UI</NavLink> and <NavLink to='/tools/ipfs-desktop'>IPFS Desktop</NavLink>. <a href="https://github.com/ipfs-shipyard/ipld-explorer" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
     <h2>Core goal relevance</h2>
-
+    <p>How the tooling provided in this repo helps facilitate a user's or developer's overarching goals and motivations for using IPFS and the dweb. See more about how the nine user/developer core goals intersect with developers' application areas and IPFS' current readiness to facilitate them in the <a href="https://airtable.com/invite/l?inviteId=invSHl2KmYhUhH8tB&inviteToken=f2b67161224dae0770c9b9b00ec36533639f9a2432d265d9c57267a7b1dd5534" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
     <div className='chart-box'>
       <div>
         <dl>

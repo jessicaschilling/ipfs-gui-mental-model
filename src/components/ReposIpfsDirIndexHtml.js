@@ -9,7 +9,7 @@ const ReposIpfsDirIndexHtml = () => (
       <p>This repo contains the source code for the directory listing pages for go-ipfs gateways. Note that there is a JS equivalent that doesn't exist in its own repo, but should be considered together with this one. <a href="https://github.com/ipfs/dir-index-html" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
       <h2>Core goal relevance</h2>
-
+      <p>How the tooling provided in this repo helps facilitate a user's or developer's overarching goals and motivations for using IPFS and the dweb. See more about how the nine user/developer core goals intersect with developers' application areas and IPFS' current readiness to facilitate them in the <a href="https://airtable.com/invite/l?inviteId=invSHl2KmYhUhH8tB&inviteToken=f2b67161224dae0770c9b9b00ec36533639f9a2432d265d9c57267a7b1dd5534" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
       <div className='chart-box'>
         <div>
           <dl>
