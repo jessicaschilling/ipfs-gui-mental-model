@@ -44,7 +44,8 @@ const ReposIpfsShipyardIpfsDesktop = () => (
       </div>
     </div>
 
-    <h2>Assumed user savvy: range and average</h2>
+    <h2>User tech savvy: range and average</h2>
+    <p>The overall range (light aqua bar) and average (aqua dot) of technical savvy that this repo's tooling ideally supports. Because a user's overall tech savvy may be significantly different from their dweb-specific savvy (at least initially), these are indicated separately in the chart, with the range/average of <strong>general tech savvy on the left</strong> and <strong>overall tech savvy on the right</strong>. For high-level or broad-reaching tools, however, <strong>these may meet or even overlap</strong> in the middle.</p>
     <div className='chart-box'>
       <div className="tc">
         <img src={savvy} style={{width: 780}}alt='Assumed range of user savvy for general tech knowledge and dweb-specific knowledge'/>
