@@ -94,6 +94,36 @@ code {
   font-weight: 400;
 }
 
+#content .journey-chart {
+  justify-content: center;
+}
+
+#content .journey-box, #content .journey-label {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+#content .journey-box, {
+  width: 14%;
+  text-align: center;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+#content .journey-label {
+  width: 8%;
+  font-weight: 700;
+  text-align: right;
+}
+
+#content .journey-yes {
+  font-size: 2em;
+  width: 4%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.25em;
+}
+
 dl {
   display: flex;
   flex-direction: column;
