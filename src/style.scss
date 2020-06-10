@@ -59,6 +59,11 @@ code {
   margin-top: 0;
 }
 
+#nav .active {
+  font-weight: 600;
+  color: $color-charcoal;
+}
+
 #content p {
     line-height: 1.4;
 }

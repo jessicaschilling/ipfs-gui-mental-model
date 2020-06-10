@@ -7,7 +7,7 @@ const Nav = () => {
 
       <h3>Welcome</h3>
       <ul>
-        <li><NavLink to='/'>About this model</NavLink></li>
+        <li><NavLink to='/about'>About this model</NavLink></li>
       </ul>
 
       <h3>Tools &amp; tool types</h3>

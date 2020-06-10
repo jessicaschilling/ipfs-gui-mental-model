@@ -1,6 +1,6 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Home from './Home';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import About from './About';
 import ToolsIpfsCompanion from './ToolsIpfsCompanion';
 import ToolsWebui from './ToolsWebui';
 import ToolsIpfsDesktop from './ToolsIpfsDesktop';
@@ -35,7 +35,8 @@ import ReposIpfsShipyardIpldExplorerComponents from './ReposIpfsShipyardIpldExpl
 
 const Main = () => (
   <Switch>
-    <Route exact path='/' component={Home}></Route>
+    <Route exact path='/'><Redirect to='/about' /></Route>
+    <Route exact path='/about' component={About}></Route>
     <Route exact path='/tools/ipfs-companion' component={ToolsIpfsCompanion}></Route>
     <Route exact path='/tools/webui' component={ToolsWebui}></Route>
     <Route exact path='/tools/ipfs-desktop' component={ToolsIpfsDesktop}></Route>
