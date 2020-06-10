@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ReposIpfsShipyardIpldExplorer = () => (
-  <div id='content' className='pt3 pr4 pb4 pl4'>
+  <div id='content' className='pt3 pr4 pb4 pl4 w-100'>
     <h1><span className='nav-category'>Repo:</span> ipfs-shipyard/ipld-explorer</h1>
   </div>
 );

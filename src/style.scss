@@ -75,10 +75,16 @@ code {
 
 #content h2 {
   margin-top: 1.4em;
+  margin-bottom: 0.5em;
 }
 
 #content li {
   line-height: 1.5;
+}
+
+#content #tools-repos-used {
+  background-color: $color-snow;
+  padding: 1em;
 }
 
 #content .nav-category {
