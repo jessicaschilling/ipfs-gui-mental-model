@@ -9,7 +9,7 @@ const ReposIpfsJsIpfsIo = () => (
     <p>This repo contains the source code for <a href="https://js.ipfs.io" target="_blank" rel="noopener noreferrer">js.ipfs.io</a>, offering download and docs links and acting as the user-facing "sales site" for the JavaScript implementation of IPFS. <a href="https://github.com/ipfs/js.ipfs.io" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
     <h2>Core goal relevance</h2>
-    <p>How the tooling provided in this repo helps facilitate a user's or developer's overarching goals and motivations for using IPFS and the dweb. See more about how the nine user/developer core goals intersect with developers' application areas and IPFS' current readiness to facilitate them in the <a href="https://airtable.com/invite/l?inviteId=invSHl2KmYhUhH8tB&inviteToken=f2b67161224dae0770c9b9b00ec36533639f9a2432d265d9c57267a7b1dd5534" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
+    <p>How the tooling provided in this repo helps facilitate a user's or developer's overarching goals and motivations for using IPFS and the dweb. See more about how the nine user/developer core goals intersect with developers' application areas and IPFS' current readiness to facilitate them in the <a href="https://airtable.com/shrQoB6LnOSPBo9Yr" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
     <div className='chart-box'>
       <div>
         <dl>
@@ -28,6 +28,8 @@ const ReposIpfsJsIpfsIo = () => (
 
 
     <h2>Stakeholder usefulness</h2>
+    <p>The degree to which the tooling provided in this repo is relevant to a particular stakeholder group's goals. Note that stakeholder needs and engagement with a particular repo's tooling change over time as part of their user journey; to examine these patterns in more detail, click on any of the group names in this chart.</p>
+    <p>The seven stakeholder groups used in this mental model are a subset of the 18 core IPFS stakeholder groups; to learn more about the entire stakeholder group set, see the <a href="https://airtable.com/shrYKtv0dMETI0lVu" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
     <div className='chart-box'>
       <div>
         <dl>
