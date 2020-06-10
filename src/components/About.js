@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
@@ -27,6 +28,8 @@ const Home = () => (
   </ul>
 
   <p>As you explore the mental model, it’s also very useful to consider this work alongside other industry-wide longitudinal studies, such as the  <a href="https://medium.com/fluence-network/decentralized-web-developer-report-2020-5b41a8d86789" target="_blank" rel="noopener noreferrer">Fluence DWeb Developer Report</a> from June 2020. </p>
+
+  <p>If you're in a hurry, you can also skip directly to the <NavLink to='/recommendations'>recommendations and notes</NavLink>.</p>
 
   <h2>Comments, questions, issues</h2>
   <p>This artifact was originally created by <a href="https://github.com/jessicaschilling" target="_blank" rel="noopener noreferrer">@jessicaschilling</a> in June 2020 and is subject to ongoing modification as the apps, repos, and stakeholders referenced continue to evolve. For questions or comments, please open an issue in the <a href="https://github.com/ipfs/ipfs-gui" target="_blank" rel="noopener noreferrer">IPFS GUI Working Group</a> repo.</p>
