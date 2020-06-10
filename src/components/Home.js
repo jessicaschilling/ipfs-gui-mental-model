@@ -1,18 +1,4 @@
 import React from 'react';
-import './style.scss';
-import 'tachyons';
-import 'ipfs-css';
-import { Switch, Route } from 'react-router-dom';
-
-const Main = () => (
-  <Switch>
-    <Route exact path='/' component={Home}></Route>
-    <Route exact path='/about' component={About}></Route>
-    <Route exact path='/contact/contact-me' component={Contact}></Route>
-  </Switch>
-);
-
-export default Main;
 
 const Home = () => (
   <div id='content' className='pt3 pr4 pb4 pl4'>
@@ -48,14 +34,4 @@ const Home = () => (
   </div>
 );
 
-const About = () => (
-  <div id='content' className='pt3 pr4 pb4 pl4'>
-    <h1>Foo</h1>
-  </div>
-);
-
-const Contact = () => (
-  <div id='content' className='pt3 pr4 pb4 pl4'>
-    <h1>Foo</h1>
-  </div>
-);
+export default Home;

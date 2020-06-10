@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main'
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Main from './components/Main'
 import './style.scss';
 import 'tachyons';
 import 'ipfs-css';

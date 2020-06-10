@@ -59,11 +59,19 @@ code {
   margin-top: 0;
 }
 
-#content p, #content li {
+#content p {
     line-height: 1.4;
 }
 
 #content h1 {
   color: $color-teal-muted;
   font-weight: 600;
+}
+
+#content h2 {
+  margin-top: 1.4em;
+}
+
+#content li {
+  line-height: 1.5;
 }

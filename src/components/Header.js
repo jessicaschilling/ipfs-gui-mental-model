@@ -1,8 +1,5 @@
 import React from 'react';
-import ipfsLogo from './ipfs-logo.svg';
-import './style.scss';
-import 'tachyons';
-import 'ipfs-css';
+import ipfsLogo from '../img/ipfs-logo.svg';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {

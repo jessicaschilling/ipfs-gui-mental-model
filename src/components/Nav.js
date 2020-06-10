@@ -1,7 +1,4 @@
 import React from 'react';
-import './style.scss';
-import 'tachyons';
-import 'ipfs-css';
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
@@ -16,7 +13,7 @@ const Nav = () => {
       <h3>Tools &amp; tool types</h3>
       <ul>
         <li><NavLink to='/tools/ipfs-companion'>IPFS Companion</NavLink></li>
-        <li><NavLink to='/tools/web-ui'>Web UI</NavLink></li>
+        <li><NavLink to='/tools/webui'>Web UI</NavLink></li>
         <li><NavLink to='/tools/ipfs-desktop'>IPFS Desktop</NavLink></li>
         <li><NavLink to='/tools/misc-tools'>Misc tools</NavLink></li>
         <li><NavLink to='/tools/misc-info-download-sources'>Misc info/download sources</NavLink></li>
@@ -37,7 +34,7 @@ const Nav = () => {
       <h3>Repos</h3>
       <h4>ipfs org</h4>
       <ul>
-        <li><NavLink to='/repos/ipfs/'>dir-index-html</NavLink></li>
+        <li><NavLink to='/repos/ipfs/dir-index-html'>dir-index-html</NavLink></li>
         <li><NavLink to='/repos/ipfs/distributions'>distributions</NavLink></li>
         <li><NavLink to='/repos/ipfs/i18n'>i18n</NavLink></li>
         <li><NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink></li>
