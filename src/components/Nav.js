@@ -8,6 +8,7 @@ const Nav = () => {
       <h3>Welcome</h3>
       <ul>
         <li><NavLink to='/about'>About this model</NavLink></li>
+        <li><NavLink to='/recommendations'>Recommendations &amp; notes</NavLink></li>
       </ul>
 
       <h3>Tools &amp; tool types</h3>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import About from './About';
+import Recommendations from './Recommendations';
 import ToolsIpfsCompanion from './ToolsIpfsCompanion';
 import ToolsWebui from './ToolsWebui';
 import ToolsIpfsDesktop from './ToolsIpfsDesktop';
@@ -37,6 +38,7 @@ const Main = () => (
   <Switch>
     <Route exact path='/'><Redirect to='/about' /></Route>
     <Route exact path='/about' component={About}></Route>
+    <Route exact path='/recommendations' component={Recommendations}></Route>
     <Route exact path='/tools/ipfs-companion' component={ToolsIpfsCompanion}></Route>
     <Route exact path='/tools/webui' component={ToolsWebui}></Route>
     <Route exact path='/tools/ipfs-desktop' component={ToolsIpfsDesktop}></Route>
