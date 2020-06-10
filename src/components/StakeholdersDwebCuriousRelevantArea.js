@@ -1,9 +1,23 @@
 import React from 'react';
+import quadrant from '../img/quadrant-dweb-curious-relevant-area.svg';
 import { NavLink } from 'react-router-dom';
 
 const StakeholdersDwebCuriousRelevantArea = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Stakeholders:</span> Dweb-curious &mdash; relevant app area</h1>
+
+    <h2>Repo relevance by time and expertise</h2>
+    <div className='chart-box flex'>
+      <div className="dib">
+        <img src={quadrant} style={{width: 680}} alt='Assumed range of user savvy for general tech knowledge and dweb-specific knowledge'/>
+      </div>
+      <div className="dib ml3">
+      <p><strong>Horizontal</strong> axis represents the <strong>duration</strong> of the stakeholder’s interactions with and/or usage of IPFS.</p>
+      <p><strong>Vertical</strong> axis represents the depth of a stakeholder’s <strong>expertise</strong>.</p>
+      <p><strong className="aqua">Aqua</strong> represents repos that are valuable due to the <strong>duration of their use by the stakeholder</strong>.</p>
+      <p><strong className="teal">Teal</strong> represents repos whose value lies in <strong>both long-term duration and the ability to scale to greater depths of expertise</strong>.</p>
+      </div>
+    </div>
 
         <h2>Simplified stakeholder journey</h2>
         <div className='chart-box journey-chart w-100'>
