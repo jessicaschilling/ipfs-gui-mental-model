@@ -28,7 +28,7 @@ const Nav = () => {
         <li><NavLink to='/tools/webui'>Web UI</NavLink></li>
         <li><NavLink to='/tools/ipfs-desktop'>IPFS Desktop</NavLink></li>
         <li><NavLink to='/tools/misc-tools'>Misc tools</NavLink></li>
-        <li><NavLink to='/tools/misc-info-download-sources'>Misc info/download sources</NavLink></li>
+        <li><NavLink to='/tools/misc-info-download-resources'>Misc info/download resources</NavLink></li>
         <li><NavLink to='/tools/included-by-third-parties'>Included by third parties</NavLink></li>
        </ul>
 

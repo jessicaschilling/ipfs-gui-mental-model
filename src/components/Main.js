@@ -6,7 +6,7 @@ import ToolsIpfsCompanion from './ToolsIpfsCompanion';
 import ToolsWebui from './ToolsWebui';
 import ToolsIpfsDesktop from './ToolsIpfsDesktop';
 import ToolsMiscTools from './ToolsMiscTools';
-import ToolsMiscInfoDownloadSources from './ToolsMiscInfoDownloadSources';
+import ToolsMiscInfoDownloadResources from './ToolsMiscInfoDownloadResources';
 import ToolsIncludedByThirdParties from './ToolsIncludedByThirdParties';
 import StakeholdersDevsDedicatedProCollab from './StakeholdersDevsDedicatedProCollab';
 import StakeholdersDevsHobbyistHacker from './StakeholdersDevsHobbyistHacker';
@@ -43,7 +43,7 @@ const Main = () => (
     <Route exact path='/tools/webui' component={ToolsWebui}></Route>
     <Route exact path='/tools/ipfs-desktop' component={ToolsIpfsDesktop}></Route>
     <Route exact path='/tools/misc-tools' component={ToolsMiscTools}></Route>
-    <Route exact path='/tools/misc-info-download-sources' component={ToolsMiscInfoDownloadSources}></Route>
+    <Route exact path='/tools/misc-info-download-resources' component={ToolsMiscInfoDownloadResources}></Route>
     <Route exact path='/tools/included-by-third-parties' component={ToolsIncludedByThirdParties}></Route>
     <Route exact path='/stakeholders/devs-dedicated-pro-collab' component={StakeholdersDevsDedicatedProCollab}></Route>
     <Route exact path='/stakeholders/devs-hobbyist-hacker' component={StakeholdersDevsHobbyistHacker}></Route>

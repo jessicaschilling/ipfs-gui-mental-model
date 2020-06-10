@@ -5,7 +5,8 @@ const AllReposByUseFrequency = () => (
 
 <div>
   <h2>All GUI repos by use frequency</h2>
-  <p>Note: Frequency isn’t the <strong>only</strong> indicator of importance (docs code is only used once!), but it <strong>can</strong> reveal "small but mighty" repos that play a role in multiple apps/projects.</p>
+  <p>See how this tool or tool type's constituent repos fit into the overall frequency of use for all IPFS GUI repos below. <strong>Values indicate the number of instances of a repo's inclusion</strong> in one of the six tools/tool types examined in this model.</p>
+  <p>Note: Frequency isn’t the <strong>only</strong> indicator of importance (for example, the code in <code>docs</code> is only used once), but it <strong>can</strong> reveal "small but mighty" repos that play an important role in multiple core- or community-built tools.</p>
   <div className='chart-box'>
     <div>
       <dl>

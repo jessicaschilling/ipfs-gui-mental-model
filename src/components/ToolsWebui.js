@@ -7,6 +7,7 @@ const ToolsWebui = () => (
     <h1><span className='nav-category'>Tool:</span> Web UI</h1>
 
     <h2>Repos used by this tool</h2>
+    <p>The GUI-related repos examined in this model that are ingredients in the IPFS Web UI. Click any of the buttons to drill deeper into details for a specific repo.</p>
     <div className='chart-box'>
       <NavLink to='/repos/ipfs/i18n'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>i18n</span></NavLink>
       <NavLink to='/repos/ipfs-shipyard/ipfs-css'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>ipfs-css</span></NavLink>
