@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const StakeholdersDevsDedicatedProCollab = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
@@ -87,24 +88,24 @@ const StakeholdersDevsDedicatedProCollab = () => (
           Repos used
         </div>
         <div className='journey-box bg-white'>
-          website, awesome-ipfs,  ipfs-docs, ipld-explorer
+          <NavLink to='/repos/ipfs/website'>website</NavLink>, <NavLink to='/repos/ipfs-shipyard/awesome-ipfs'>awesome-ipfs</NavLink>,  <NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipld-explorer'>ipld-explorer</NavLink>
         </div>
         <div className='journey-box bg-white'>
-          awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, js.ipfs.io, distributions, ipld-explorer
+          <NavLink to='/repos/ipfs-shipyard/awesome-ipfs'>awesome-ipfs</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-desktop'>ipfs-desktop</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-webui'>ipfs-webui</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-companion'>ipfs-companion</NavLink>, <NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink>, <NavLink to='/repos/ipfs/js-ipfs-io'>js.ipfs.io</NavLink>, <NavLink to='/repos/ipfs/distributions'>distributions</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipld-explorer'>ipld-explorer</NavLink>
         </div>
         <div className='journey-yes'>
         </div>
         <div className='journey-box bg-white'>
-          awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer
+          <NavLink to='/repos/ipfs-shipyard/awesome-ipfs'>awesome-ipfs</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-desktop'>ipfs-desktop</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-webui'>ipfs-webui</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-companion'>ipfs-companion</NavLink>, <NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink>, <NavLink to='/repos/ipfs/distributions'>distributions</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipld-explorer'>ipld-explorer</NavLink>
         </div>
         <div className='journey-box bg-white'>
-          awesome-ipfs, ipfs-desktop, ipfs-webui, ipfs-companion, ipfs-docs, distributions, ipld-explorer
+          <NavLink to='/repos/ipfs-shipyard/awesome-ipfs'>awesome-ipfs</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-desktop'>ipfs-desktop</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-webui'>ipfs-webui</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipfs-companion'>ipfs-companion</NavLink>, <NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink>, <NavLink to='/repos/ipfs/distributions'>distributions</NavLink>, <NavLink to='/repos/ipfs-shipyard/ipld-explorer'>ipld-explorer</NavLink>
         </div>
         <div className='journey-box bg-white'>
-          ipfs-docs (and forums by extension)
+          <NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink> (and forums by extension)
         </div>
         <div className='journey-box bg-white'>
-          website (specifically blog for announcements), ipfs-docs, distributions
+          <NavLink to='/repos/ipfs/website'>website</NavLink> (specifically blog for announcements), <NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink>, <NavLink to='/repos/ipfs/distributions'>distributions</NavLink>
         </div>
       </div>
     </div>
