@@ -3,13 +3,14 @@ import ipfsLogo from './ipfs-logo.svg';
 import './style.scss';
 import 'tachyons';
 import 'ipfs-css';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className='flex-l items-center pa3 bg-navy bb bw3 border-aqua tc tl-l'>
-      <a href='#/' title="home" className='flex-none v-mid w-50'>
-        <img src={ipfsLogo} alt='IPFS' style={{height: 50, width: 117.5}} />
-      </a>
+      <span className='flex-none v-mid w-50'><NavLink to='/'>
+        <img src={ipfsLogo} alt='IPFS' style={{height: 50, width: 117.5}} /></NavLink>
+      </span>
       <div className='flex-auto ph2 ph3-l pt1'>
       </div>
       <div className='pt2 pt0-l ma0 inline-flex items-center'>
