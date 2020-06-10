@@ -9,7 +9,7 @@ import 'ipfs-css';
 const App = () => (
   <div className='vh-100'>
     <Header />
-    <div className="flex h-100">
+    <div className="flex min-h-100">
       <Nav />
       <Main />
     </div>

@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import AllReposByUseFrequency from './AllReposByUseFrequency';
 
 const ToolsMiscTools = () => (
-  <div id='content' className='pt3 pr4 pb4 pl4 w-100'>
+  <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Tool type:</span> Misc tools (+ their dependencies)</h1>
 
     <h2>Repos used by this tool type</h2>
@@ -18,6 +19,8 @@ const ToolsMiscTools = () => (
       <NavLink to='/repos/ipfs-shipyard/ipld-explorer'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>ipld-explorer</span></NavLink>
       <NavLink to='/repos/ipfs-shipyard/ipld-explorer-components'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>ipld-explorer-components</span></NavLink>
     </div>
+
+    <AllReposByUseFrequency />
 
   </div>
 );
