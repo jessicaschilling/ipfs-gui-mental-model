@@ -19,7 +19,9 @@ const StakeholdersDwebCuriousRelevantArea = () => (
       </div>
     </div>
 
-        <h2>Simplified stakeholder journey</h2>
+        <h2>Stakeholder journey</h2>
+        <p>This journey map summarizes at a high level the basic stages this stakeholder group goes through when exploring, evaluating, and adopting IPFS, as well as the group's goals, their pain points, and the IPFS resources they use at each stage.</p>
+        <p><strong>All seven stakeholder groups in this model experience the two initial stages before making an adoption decision</strong> (curiosity/info-gathering and evaluating IPFS). However, the details of this pre-decision phase can vary significantly between groups, as do groups' post-decision stages overall &mdash; primarily depending upon the depth of their IPFS adoption (e.g. users vs developers).</p>
         <div className='chart-box journey-chart w-100'>
           <div className='flex'>
             <div className='journey-label'>
