@@ -1,4 +1,5 @@
 import React from 'react';
+import savvy from '../img/savvy-ipfs-webui.svg';
 import { NavLink } from 'react-router-dom';
 
 const ReposIpfsShipyardIpfsWebui = () => (
@@ -41,10 +42,8 @@ const ReposIpfsShipyardIpfsWebui = () => (
 
     <h2>Assumed user savvy: range and average</h2>
     <div className='chart-box'>
-      <div>
-        <dl>
-        <dd class='percentage percentage-0'><span class='percentage-label'>Label</span></dd>
-        </dl>
+      <div className="tc">
+        <img src={savvy} style={{width: 780}}alt='Assumed range of user savvy for general tech knowledge and dweb-specific knowledge'/>
       </div>
     </div>
 
