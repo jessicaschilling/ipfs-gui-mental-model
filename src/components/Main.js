@@ -23,7 +23,7 @@ import ReposIpfsIpfsGui from './ReposIpfsIpfsGui';
 import ReposIpfsJsIpfsIo from './ReposIpfsJsIpfsIo';
 import ReposIpfsPublicGatewayChecker from './ReposIpfsPublicGatewayChecker';
 import ReposIpfsWebsite from './ReposIpfsWebsite';
-import ReposIpfsShipyardAwesomeIpfs from './ReposIpfsShipyardAwesomeIpfs';
+import ReposIpfsAwesomeIpfs from './ReposIpfsAwesomeIpfs';
 import ReposIpfsShipyardIpfsCompanion from './ReposIpfsShipyardIpfsCompanion';
 import ReposIpfsShipyardIpfsCss from './ReposIpfsShipyardIpfsCss';
 import ReposIpfsShipyardIpfsDesktop from './ReposIpfsShipyardIpfsDesktop';
@@ -60,7 +60,7 @@ const Main = () => (
     <Route exact path='/repos/ipfs/js-ipfs-io' component={ReposIpfsJsIpfsIo}></Route>
     <Route exact path='/repos/ipfs/public-gateway-checker' component={ReposIpfsPublicGatewayChecker}></Route>
     <Route exact path='/repos/ipfs/website' component={ReposIpfsWebsite}></Route>
-    <Route exact path='/repos/ipfs-shipyard/awesome-ipfs' component={ReposIpfsShipyardAwesomeIpfs}></Route>
+    <Route exact path='/repos/ipfs/awesome-ipfs' component={ReposIpfsAwesomeIpfs}></Route>
     <Route exact path='/repos/ipfs-shipyard/ipfs-companion' component={ReposIpfsShipyardIpfsCompanion}></Route>
     <Route exact path='/repos/ipfs-shipyard/ipfs-css' component={ReposIpfsShipyardIpfsCss}></Route>
     <Route exact path='/repos/ipfs-shipyard/ipfs-desktop' component={ReposIpfsShipyardIpfsDesktop}></Route>

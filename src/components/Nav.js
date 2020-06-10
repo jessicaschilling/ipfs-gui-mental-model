@@ -35,6 +35,7 @@ const Nav = () => {
       <h3>Repos</h3>
       <h4>ipfs org</h4>
       <ul>
+        <li><NavLink to='/repos/ipfs/awesome-ipfs'>awesome-ipfs</NavLink></li>
         <li><NavLink to='/repos/ipfs/dir-index-html'>dir-index-html</NavLink></li>
         <li><NavLink to='/repos/ipfs/distributions'>distributions</NavLink></li>
         <li><NavLink to='/repos/ipfs/i18n'>i18n</NavLink></li>
@@ -47,7 +48,6 @@ const Nav = () => {
 
       <h4>ipfs-shipyard org</h4>
       <ul>
-        <li><NavLink to='/repos/ipfs-shipyard/awesome-ipfs'>awesome-ipfs</NavLink></li>
         <li><NavLink to='/repos/ipfs-shipyard/ipfs-companion'>ipfs-companion</NavLink></li>
         <li><NavLink to='/repos/ipfs-shipyard/ipfs-css'>ipfs-css</NavLink></li>
         <li><NavLink to='/repos/ipfs-shipyard/ipfs-desktop'>ipfs-desktop</NavLink></li>

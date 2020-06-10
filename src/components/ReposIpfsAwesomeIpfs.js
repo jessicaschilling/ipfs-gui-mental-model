@@ -2,9 +2,9 @@ import React from 'react';
 import savvy from '../img/savvy-awesome-ipfs.svg';
 import { NavLink } from 'react-router-dom';
 
-const ReposIpfsShipyardAwesomeIpfs = () => (
+const ReposIpfsAwesomeIpfs = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
-    <h1><span className='nav-category'>Repo:</span> ipfs-shipyard/awesome-ipfs</h1>
+    <h1><span className='nav-category'>Repo:</span> ipfs/awesome-ipfs</h1>
 
   <p>This repo contains the source code for <a href="https://awesome.ipfs.io/" target="_blank" rel="noopener noreferrer">Awesome IPFS</a>, a showcase of core- and community-built resources for using IPFS and building things on top of it. <a href="https://github.com/ipfs/awesome-ipfs" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
@@ -55,4 +55,4 @@ const ReposIpfsShipyardAwesomeIpfs = () => (
   </div>
 );
 
-export default ReposIpfsShipyardAwesomeIpfs;
+export default ReposIpfsAwesomeIpfs;

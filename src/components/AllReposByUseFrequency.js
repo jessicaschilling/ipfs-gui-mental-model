@@ -19,7 +19,7 @@ const AllReposByUseFrequency = () => (
         <dd class='percentage percentage-50'><span class='percentage-label'><NavLink to='/repos/ipfs/public-gateway-checker'>public-gateway-checker</NavLink>:&nbsp;&nbsp;<strong>3</strong></span></dd>
         <dd class='percentage percentage-50'><span class='percentage-label'><NavLink to='/repos/ipfs/dir-index-html'>dir-index-html</NavLink>:&nbsp;&nbsp;<strong>3</strong></span></dd>
         <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-webui'>ipfs-webui</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
-        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/awesome-ipfs'>awesome-ipfs</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
+        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs/awesome-ipfs'>awesome-ipfs</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
         <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs/distributions'>distributions</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
         <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/website'>website</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
         <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/js-ipfs-io'>js.ipfs.io</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
