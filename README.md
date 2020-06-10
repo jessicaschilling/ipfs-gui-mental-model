@@ -7,4 +7,4 @@ It was bootstrapped from [create-react-app](https://github.com/facebook/create-r
 For more details surrounding this project, please view the ["About" guide in the mental model itself](https://ipfs-gui-mental-model.netlify.app/about), or see the [IPFS GUI Working Group](https://github.com/ipfs/ipfs-gui) repo for broader context.
 
 ### License
-[LICENSE](MIT).
+[MIT](LICENSE).
