@@ -7,7 +7,7 @@ const ToolsIncludedByThirdParties = () => (
     <h1><span className='nav-category'>Tool type:</span> Included by third parties (i.e. as components)</h1>
 
     <h2>Repos used by this tool type</h2>
-    <div id='tools-repos-used'>
+    <div className='chart-box'>
       <NavLink to='/repos/ipfs/dir-index-html'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>dir-index-html</span></NavLink>
       <NavLink to='/repos/ipfs/i18n'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>i18n</span></NavLink>
       <NavLink to='/repos/ipfs-shipyard/ipfs-css'><span className='f4 grow no-underline br3 ba bw1 ph3 pv2 ma2 dib teal bg-white'>ipfs-css</span></NavLink>

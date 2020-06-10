@@ -6,7 +6,7 @@ const AllReposByUseFrequency = () => (
 <div>
   <h2>All GUI repos by use frequency</h2>
   <p>Note: Frequency isn’t the <strong>only</strong> indicator of importance (docs code is only used once!), but it <strong>can</strong> reveal "small but mighty" repos that play a role in multiple apps/projects.</p>
-  <div id='tools-repos-frequency'>
+  <div className='chart-box'>
     <div>
       <dl>
         <dd class='percentage percentage-100'><span class='percentage-label'><NavLink to='/repos/ipfs/i18n'>i18n</NavLink>:&nbsp;&nbsp;<strong>6</strong></span></dd>
