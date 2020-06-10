@@ -6,7 +6,7 @@ const ReposIpfsJsIpfsIo = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Repo:</span> ipfs/js.ipfs.io</h1>
 
-    <p>This repo contains the source code for xyz. <a href="https://github.com/ipfs/" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+    <p>This repo contains the source code for <a href="https://js.ipfs.io" target="_blank" rel="noopener noreferrer">js.ipfs.io</a>, offering download and docs links and acting as the user-facing "sales site" for the JavaScript implementation of IPFS. <a href="https://github.com/ipfs/js.ipfs.io" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
     <h2>Core goal relevance</h2>
 

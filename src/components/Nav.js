@@ -11,16 +11,6 @@ const Nav = () => {
         <li><NavLink to='/recommendations'>Recommendations &amp; notes</NavLink></li>
       </ul>
 
-      <h3>Tools &amp; tool types</h3>
-      <ul>
-        <li><NavLink to='/tools/ipfs-companion'>IPFS Companion</NavLink></li>
-        <li><NavLink to='/tools/webui'>Web UI</NavLink></li>
-        <li><NavLink to='/tools/ipfs-desktop'>IPFS Desktop</NavLink></li>
-        <li><NavLink to='/tools/misc-tools'>Misc tools</NavLink></li>
-        <li><NavLink to='/tools/misc-info-download-sources'>Misc info/download sources</NavLink></li>
-        <li><NavLink to='/tools/included-by-third-parties'>Included by third parties</NavLink></li>
-       </ul>
-
       <h3>Stakeholders</h3>
       <ul>
         <li><NavLink to='/stakeholders/devs-dedicated-pro-collab'>Devs: dedicated/pro/collab</NavLink></li>
@@ -31,6 +21,16 @@ const Nav = () => {
         <li><NavLink to='/stakeholders/dweb-curious-relevant-area'>Dweb-curious: relevant area</NavLink></li>
         <li><NavLink to='/stakeholders/dweb-curious-civilians'>Dweb-curious: “civilians”</NavLink></li>
       </ul>
+
+      <h3>Tools &amp; tool types</h3>
+      <ul>
+        <li><NavLink to='/tools/ipfs-companion'>IPFS Companion</NavLink></li>
+        <li><NavLink to='/tools/webui'>Web UI</NavLink></li>
+        <li><NavLink to='/tools/ipfs-desktop'>IPFS Desktop</NavLink></li>
+        <li><NavLink to='/tools/misc-tools'>Misc tools</NavLink></li>
+        <li><NavLink to='/tools/misc-info-download-sources'>Misc info/download sources</NavLink></li>
+        <li><NavLink to='/tools/included-by-third-parties'>Included by third parties</NavLink></li>
+       </ul>
 
       <h3>Repos</h3>
       <h4>ipfs org</h4>

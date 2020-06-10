@@ -6,7 +6,7 @@ const ReposIpfsIpfsDocs = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Repo:</span> ipfs/docs</h1>
 
-    <p>This repo contains the source code for xyz. <a href="https://github.com/ipfs/" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+    <p>This repo contains the source code for the <a href="https://docs.ipfs.io" target="_blank" rel="noopener noreferrer">IPFS Documentation</a> VuePress site. <a href="https://github.com/ipfs/ipfs-docs" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
     <h2>Core goal relevance</h2>
 

@@ -6,7 +6,7 @@ const ReposIpfsDirIndexHtml = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Repo:</span> ipfs/dir-index-html</h1>
 
-      <p>This repo contains the source code for xyz. <a href="https://github.com/ipfs/" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+      <p>This repo contains the source code for the directory listing pages for go-ipfs gateways. Note that there is a JS equivalent that doesn't exist in its own repo, but should be considered together with this one. <a href="https://github.com/ipfs/dir-index-html" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
       <h2>Core goal relevance</h2>
 

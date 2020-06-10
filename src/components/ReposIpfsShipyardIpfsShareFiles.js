@@ -6,7 +6,7 @@ const ReposIpfsShipyardIpfsShareFiles = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Repo:</span> ipfs-shipyard/ipfs-share-files</h1>
 
-    <p>This repo contains the source code for xyz. <a href="https://github.com/ipfs/" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+    <p>This repo contains the source code for <a href="https://share.ipfs.io" target="_blank" rel="noopener noreferrer">share.ipfs.io</a>, a web app for sharing files in-browser using IPFS. (While this effort is currently on pause, we hope to re-evaluate and repurpose in late 2020 or early 2021.) <a href="https://github.com/ipfs-shipyard/ipfs-share-files" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 
     <h2>Core goal relevance</h2>
 
