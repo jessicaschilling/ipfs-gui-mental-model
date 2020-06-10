@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom';
 const StakeholdersCryptoEnthusiastsDevs = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Stakeholders:</span> Cryptocurrency enthusiasts &mdash; devs</h1>
+    <p>This stakeholder group includes <strong>developers</strong> whose primary interest in IPFS is related to their <strong>work or interest in the cryptocurrency space</strong>. As time goes on, these stakeholders may become <NavLink to='/stakeholders/devs-dedicated-pro-collab'>dedicated/pro/collab devs</NavLink>, but this is strongly dependent upon where IPFS might or might not fit in to their primary interest.  Overall tech savvy is assumed to be high for this group, and while dweb savvy is still somewhat variable, it's usually boosted by their existing knowledge of the crypto space.</p>
+    <p>The seven stakeholder groups used in this mental model are a subset of the 18 core IPFS stakeholder groups, consolidated for relevance to this model's focus on GUI tools. To learn more about the entire stakeholder group set, see the <a href="https://airtable.com/shrYKtv0dMETI0lVu" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
 
     <h2>Repo relevance by time and expertise</h2>
     <div className='chart-box flex'>

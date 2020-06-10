@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom';
 const StakeholdersDevsDedicatedProCollab = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Stakeholders:</span> Devs &mdash; dedicated/pro/collabs</h1>
+    <p>This stakeholder group includes <strong>developers</strong> whose primary use of IPFS is related to their <strong>professional work or similar long-term, large-scale effort</strong>. Heavily engaged contributors and others who collaborate closely with the core IPFS team are included here. Due to their existing strong engagement with IPFS, both their overall tech savvy and their dweb-specific savvy are assumed to be high.</p>
+    <p>The seven stakeholder groups used in this mental model are a subset of the 18 core IPFS stakeholder groups, consolidated for relevance to this model's focus on GUI tools. To learn more about the entire stakeholder group set, see the <a href="https://airtable.com/shrYKtv0dMETI0lVu" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
 
     <h2>Repo relevance by time and expertise</h2>
     <div className='chart-box flex'>

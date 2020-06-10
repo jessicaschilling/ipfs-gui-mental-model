@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom';
 const StakeholdersBusinessUsersEngineeringManagers = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Stakeholders:</span> Business users &mdash; engineering managers</h1>
+    <p>This stakeholder group includes <strong>business users</strong> whose professional roles as engineering managers place them as a <strong>critical bridge between developers and non-technical executives</strong>. Many of these stakeholders have at least a mid-range degree of overall tech savvy, but it's assumed that their level of dweb-specific savvy trends behind their overall knowledge.</p>
+    <p>The seven stakeholder groups used in this mental model are a subset of the 18 core IPFS stakeholder groups, consolidated for relevance to this model's focus on GUI tools. To learn more about the entire stakeholder group set, see the <a href="https://airtable.com/shrYKtv0dMETI0lVu" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
 
     <h2>Repo relevance by time and expertise</h2>
     <div className='chart-box flex'>

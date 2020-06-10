@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom';
 const StakeholdersDwebCuriousCivilians = () => (
   <div id='content' className='pt3 pr4 pl4 w-100'>
     <h1><span className='nav-category'>Stakeholders:</span> Dweb-curious &mdash; "civilians"</h1>
+    <p>This stakeholder group includes <strong>non-developers</strong> whose interest in IPFS is related to factors including <strong>curiosity about emergent technologies, a humanitarian concern for the internet, and/or interest in peer-to-peer sharing</strong>. It's prudent to assume these stakeholders may be low in both overall tech savvy and dweb-specific savvy, but their interest in IPFS does bode for greater savvy than many of their peers.</p>
+    <p>The seven stakeholder groups used in this mental model are a subset of the 18 core IPFS stakeholder groups, consolidated for relevance to this model's focus on GUI tools. To learn more about the entire stakeholder group set, see the <a href="https://airtable.com/shrYKtv0dMETI0lVu" target="_blank" rel="noopener noreferrer">Spring 2020 IPFS Information Ecosystem Audit</a>.</p>
 
     <h2>Repo relevance by time and expertise</h2>
     <div className='chart-box flex'>
