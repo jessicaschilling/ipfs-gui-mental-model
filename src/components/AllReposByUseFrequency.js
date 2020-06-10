@@ -10,23 +10,23 @@ const AllReposByUseFrequency = () => (
   <div className='chart-box'>
     <div>
       <dl>
-        <dd class='percentage percentage-100'><span class='percentage-label'><NavLink to='/repos/ipfs/i18n'>i18n</NavLink>:&nbsp;&nbsp;<strong>6</strong></span></dd>
-        <dd class='percentage percentage-100'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-css'>ipfs-css</NavLink>:&nbsp;&nbsp;<strong>6</strong></span></dd>
-        <dd class='percentage percentage-83'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipld-explorer-components'>ipld-explorer-components</NavLink>:&nbsp;&nbsp;<strong>5</strong></span></dd>
-        <dd class='percentage percentage-83'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-share-files'>ipfs-share-files</NavLink>:&nbsp;&nbsp;<strong>5</strong></span></dd>
-        <dd class='percentage percentage-67'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-ui-style-guide'>ipfs-ui-style-guide</NavLink>:&nbsp;&nbsp;<strong>4</strong></span></dd>
-        <dd class='percentage percentage-67'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipld-explorer'>ipld-explorer</NavLink>:&nbsp;&nbsp;<strong>4</strong></span></dd>
-        <dd class='percentage percentage-50'><span class='percentage-label'><NavLink to='/repos/ipfs/public-gateway-checker'>public-gateway-checker</NavLink>:&nbsp;&nbsp;<strong>3</strong></span></dd>
-        <dd class='percentage percentage-50'><span class='percentage-label'><NavLink to='/repos/ipfs/dir-index-html'>dir-index-html</NavLink>:&nbsp;&nbsp;<strong>3</strong></span></dd>
-        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-webui'>ipfs-webui</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
-        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs/awesome-ipfs'>awesome-ipfs</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
-        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs/distributions'>distributions</NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
-        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/website'>website</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
-        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/js-ipfs-io'>js.ipfs.io</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
-        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/ipfs-docs'>ipfs-docs</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
-        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-desktop'>ipfs-desktop</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
-        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-companion'>ipfs-companion</NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
-        <dd class='percentage percentage-0'><span class='percentage-label'><em><NavLink to='/repos/ipfs/ipfs-gui'>ipfs-gui</NavLink>:&nbsp;&nbsp;N/A</em></span></dd>
+        <dd class='percentage percentage-100'><span class='percentage-label'><NavLink to='/repos/ipfs/i18n'><code>i18n</code></NavLink>:&nbsp;&nbsp;<strong>6</strong></span></dd>
+        <dd class='percentage percentage-100'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-css'><code>ipfs-css</code></NavLink>:&nbsp;&nbsp;<strong>6</strong></span></dd>
+        <dd class='percentage percentage-83'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipld-explorer-components'><code>ipld-explorer-components</code></NavLink>:&nbsp;&nbsp;<strong>5</strong></span></dd>
+        <dd class='percentage percentage-83'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-share-files'><code>ipfs-share-files</code></NavLink>:&nbsp;&nbsp;<strong>5</strong></span></dd>
+        <dd class='percentage percentage-67'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-ui-style-guide'><code>ipfs-ui-style-guide</code></NavLink>:&nbsp;&nbsp;<strong>4</strong></span></dd>
+        <dd class='percentage percentage-67'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipld-explorer'><code>ipld-explorer</code></NavLink>:&nbsp;&nbsp;<strong>4</strong></span></dd>
+        <dd class='percentage percentage-50'><span class='percentage-label'><NavLink to='/repos/ipfs/public-gateway-checker'><code>public-gateway-checker</code></NavLink>:&nbsp;&nbsp;<strong>3</strong></span></dd>
+        <dd class='percentage percentage-50'><span class='percentage-label'><NavLink to='/repos/ipfs/dir-index-html'><code>dir-index-html</code></NavLink>:&nbsp;&nbsp;<strong>3</strong></span></dd>
+        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-webui'>i<code>pfs-webui</code></NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
+        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs/awesome-ipfs'><code>awesome-ipfs</code></NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
+        <dd class='percentage percentage-33'><span class='percentage-label'><NavLink to='/repos/ipfs/distributions'><code>distributions</code></NavLink>:&nbsp;&nbsp;<strong>2</strong></span></dd>
+        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/website'><code>website</code></NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
+        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/js-ipfs-io'>j<code>s.ipfs.io</code></NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
+        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs/ipfs-docs'><code>ipfs-docs</code></NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
+        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-desktop'><code>ipfs-desktop</code></NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
+        <dd class='percentage percentage-17'><span class='percentage-label'><NavLink to='/repos/ipfs-shipyard/ipfs-companion'><code>ipfs-companion</code></NavLink>:&nbsp;&nbsp;<strong>1</strong></span></dd>
+        <dd class='percentage percentage-0'><span class='percentage-label'><em><NavLink to='/repos/ipfs/ipfs-gui'><code>ipfs-gui</code></NavLink>:&nbsp;&nbsp;N/A</em></span></dd>
       </dl>
     </div>
   </div>
