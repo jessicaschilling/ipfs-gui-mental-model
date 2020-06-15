@@ -131,7 +131,7 @@ code {
 dl {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 16em);
+  width: calc(100% - 16.5em);
   // max-width: 700px;
   position: relative;
   padding: 0.5em 0;
@@ -142,7 +142,7 @@ dl {
   display: flex;
   align-items: center;
   height: 34px;
-  width: 15em;
+  width: 16em;
   position: absolute;
   left: 0;
   justify-content: flex-end;
@@ -152,7 +152,7 @@ dl {
   line-height: 1;
   width: 100%;
   height: 34px;
-  margin-left: 16em;
+  margin-left: 16.5em;
   background: repeating-linear-gradient(
   to right,
   #ddd,
