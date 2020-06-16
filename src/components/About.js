@@ -7,14 +7,17 @@ const Home = () => (
   <h1>Welcome!</h1>
 
   <h2>What is this?</h2>
-  <p>This <strong>IPFS GUI family mental model</strong> offers a framework for understanding how IPFS’ various GUI-based tools work together to provide cohesive, consistent enablers to using and building on IPFS for a variety of developer and non-developer stakeholder groups. </p>
+  <p>This <strong>IPFS GUI family mental model</strong> offers a framework for understanding how IPFS’ various GUI-based tools work together to provide cohesive, consistent enablers to using and building on IPFS for a variety of developer and non-developer stakeholder groups.  It's intended to be used to facilitate prioritization and roadmap decisions by helping weigh and merge qualitative and quantitative motivations.</p>
 
   <h2>Source documents</h2>
   <p>This model was created in Summer 2020 as part of an overarching effort to evaluate backlogs, calibrate on user needs, and reboot value-driving work on the IPFS GUI family. It draws heavily on core-team discussion/iteration (including the February 2020 IPFS Team Week), as well as the following foundational work:</p>
   <ul>
-    <li><a href="https://airtable.com/shrQoB6LnOSPBo9Yr" class="fw6" target="_blank" rel="noopener noreferrer">IPFS Information Ecosystem Audit:</a> Baseline definitions and stack-ranks for IPFS’ stakeholders, workstreams (journeys), core goals, and channels</li>
-    <li><a href="https://docs.google.com/forms/d/1YWVELaXHtXxSfaNd8ZcvxtnEOqurTxJdodlAl2qwyMc/edit#responses" class="fw6" target="_blank" rel="noopener noreferrer">Spring 2020 GUI Tools Use Survey:</a> Open survey to the global IPFS community on which IPFS GUI tools they use, how, and why</li>
-    <li><a href="https://docs.google.com/forms/d/1JFSNS90Y0BQPexDU4n7MLdf8_fdaUyGBof8BN2IUoFE/edit#responses" class="fw6" target="_blank" rel="noopener noreferrer">IPFS Companion Uninstall Feedback Survey:</a> Optional “why” survey suggested upon a Companion user’s uninstalling the extension</li>
+    <li><a href="https://airtable.com/shrQoB6LnOSPBo9Yr" class="fw6" target="_blank" rel="noopener noreferrer">IPFS Information Ecosystem Audit:</a> Baseline definitions and stack-ranks for IPFS’ stakeholders, workstreams (journeys), core goals, and channels (initially as of spring 2020 but updated quarterly)</li>
+    <li class="mb1"><a href="https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#" class="fw6" target="_blank" rel="noopener noreferrer">IPFS GUI tools user research:</a> June 2020 analysis and summarization/recommendation work on two user surveys:</li>
+    <ul class="mb1">
+      <li><a href="https://docs.google.com/forms/d/1YWVELaXHtXxSfaNd8ZcvxtnEOqurTxJdodlAl2qwyMc/edit#responses" target="_blank" rel="noopener noreferrer">Spring 2020 GUI Tools Use Survey:</a> Open survey to the global IPFS community on which IPFS GUI tools they use, how, and why</li>
+      <li><a href="https://docs.google.com/forms/d/1JFSNS90Y0BQPexDU4n7MLdf8_fdaUyGBof8BN2IUoFE/edit#responses" target="_blank" rel="noopener noreferrer">IPFS Companion Uninstall Feedback Survey:</a> Optional “why” survey suggested upon a Companion user’s uninstalling the extension</li>
+    </ul>
     <li><a href="https://github.com/ipfs-inactive/docs/issues/355" class="fw6" target="_blank" rel="noopener noreferrer">Fall 2019 Colorado IPFS User Testing Day:</a> Open-ended user testing (within the framework of the docs beta launch) on desires, pain points, and goals</li>
     <li><a href="https://app.mural.co/t/protocollabs6957/m/protocollabs6957/1564779785852/cf7669f3c1773508a811a3fa0eadfb99efb310bf" class="fw6" target="_blank" rel="noopener noreferrer">Summer 2019 User/Goal Personae:</a> Initial work on core user personae, validated by engaged IPFS collabs and expanded upon in the ecosystem audit </li>
   </ul>
