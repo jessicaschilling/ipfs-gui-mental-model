@@ -1,5 +1,7 @@
 # IPFS GUI family mental model
 
+### *Note: This site is deprecated as of 2021, but has been frozen in amber for archival purposes.*
+
 This IPFS GUI family mental model offers a framework for understanding how IPFS’ various GUI-based tools work together to provide cohesive, consistent enablers to using and building on IPFS for a variety of developer and non-developer stakeholder groups. 
 
 It was bootstrapped from [create-react-app](https://github.com/facebook/create-react-app) and relies heavily upon [https://tachyons.io/](tachyons) and [https://github.com/ipfs-shipyard/ipfs-css](ipfs-css).
