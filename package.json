@@ -2,12 +2,15 @@
   "name": "ipfs-gui-mental-model",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "16.x"
+},
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "ipfs-css": "^1.1.0",
-    "node-sass": "^4.14.1",
+    "sass": "^1.49.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
